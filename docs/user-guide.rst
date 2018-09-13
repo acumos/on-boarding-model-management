@@ -8,7 +8,6 @@
 .. you may not use this file except in compliance with the License.
 .. You may obtain a copy of the License at
 ..
-
 ..      http://creativecommons.org/licenses/by/4.0
 ..
 .. This file is distributed on an "AS IS" BASIS,
@@ -17,43 +16,47 @@
 .. limitations under the License.
 .. ===============LICENSE_END=========================================================
 
-==========================================
-Acumos Model Management Python Developer Guide
-==========================================
+==================================
+Model Management User Guide
+==================================
 
-Testing
-=======
+Requirements
+===========
 
-We use a combination of ``tox``, ``pytest``, and ``flake8`` to test
-``acumos_model_management``. Code which is not PEP8-compliant, with an exception
-for line length increased to 120 characters, considered a failing test.
-Furthermore, code which fails pyflakes and pycode style is also considered
-failing. Example tool usage is below:
-
-.. code:: bash
-
-    $ pip install autopep8 pyflakes pycodestyle
-    $ cd model-management
-    $ autopep8 -r --in-place acumo_model_management
+You will need at least a Python 3.4+ environment in order to run this
+application.
 
 
-Run tox directly:
+Installation
+============
+
+This package may be installed with:
 
 .. code:: bash
 
-    $ cd model-management
-    $ tox
+   $ python3 setup.py install
 
-You can also specify certain tox environments to test:
 
-.. code:: bash
+Running the Application
+=======================
 
-    $ tox -e py34  # only test against Python 3.4
-    $ tox -e flake8  # only lint code
-
-And finally, you can run pytest directly in your environment *(recommended starting place)*:
+You may run the application in development mode usingj
 
 .. code:: bash
 
-    $ pytest
-    $ pytest -s   # verbose output
+    $ ./run.py
+
+
+Alternatively the application can be bundled with a production-grade WSGI
+server, such as Gunicorn. An example of running gunicorn:
+
+.. conde:: bash
+
+    $ gunicorn --workers=4 wsgi
+
+
+RESTFUL Endpoints
+================
+
+Once the application is running, the swagger spec can be accessed at the /v2
+path. For example: http://localhost:8081/v2/
