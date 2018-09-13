@@ -1,7 +1,7 @@
 .. ===============LICENSE_START============================================================
 .. Acumos CC-BY-4.0
 .. ========================================================================================
-.. Copyright (C) 2017-2018 AT&T Intellectual Property. All rights reserved.
+.. Copyright (C) 2018 AT&T Intellectual Property. All rights reserved.
 .. ========================================================================================
 .. This Acumos documentation file is distributed by AT&T
 .. under the Creative Commons Attribution 4.0 International License (the "License");
