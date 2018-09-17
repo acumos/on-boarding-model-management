@@ -1,0 +1,261 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e0944461_70e45fb8",
+        "filename": "acumos_model_management/api/restplus.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-09-17T17:48:59Z",
+      "side": 1,
+      "message": "Version 0.1.0?  2.0.0?",
+      "range": {
+        "startLine": 39,
+        "startChar": 35,
+        "endLine": 39,
+        "endChar": 43
+      },
+      "revId": "126ddba9f0caa00cd7a90af4d23890d611091c6f",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "323be62d_4b6c8adf",
+        "filename": "acumos_model_management/api/v2/endpoints.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-09-17T17:48:59Z",
+      "side": 1,
+      "message": "Is implementation coming soon?",
+      "range": {
+        "startLine": 27,
+        "startChar": 22,
+        "endLine": 27,
+        "endChar": 73
+      },
+      "revId": "126ddba9f0caa00cd7a90af4d23890d611091c6f",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0cdae465_a70839ac",
+        "filename": "acumos_model_management/api/v2/parsers.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-09-17T17:48:59Z",
+      "side": 1,
+      "message": "Drop empty file?",
+      "revId": "126ddba9f0caa00cd7a90af4d23890d611091c6f",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5b3ee800_0366f244",
+        "filename": "docs/developer-guide.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-09-17T17:48:59Z",
+      "side": 1,
+      "message": "Fix line len",
+      "revId": "126ddba9f0caa00cd7a90af4d23890d611091c6f",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f761f3f_7023be38",
+        "filename": "docs/developer-guide.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-09-17T17:48:59Z",
+      "side": 1,
+      "message": "Please add the developer guide text here.",
+      "revId": "126ddba9f0caa00cd7a90af4d23890d611091c6f",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1e2b1d5b_945f625f",
+        "filename": "docs/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-09-17T17:48:59Z",
+      "side": 1,
+      "message": "Pls fix line length",
+      "revId": "126ddba9f0caa00cd7a90af4d23890d611091c6f",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c0f5aee8_bd72b011",
+        "filename": "docs/overview.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-09-17T17:48:59Z",
+      "side": 1,
+      "message": "Pls fix line length",
+      "revId": "126ddba9f0caa00cd7a90af4d23890d611091c6f",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e81445b9_50ac3157",
+        "filename": "docs/overview.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-09-17T17:48:59Z",
+      "side": 1,
+      "message": "Incorrect Jenkins link",
+      "range": {
+        "startLine": 34,
+        "startChar": 4,
+        "endLine": 34,
+        "endChar": 65
+      },
+      "revId": "126ddba9f0caa00cd7a90af4d23890d611091c6f",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "97e6bd6d_0a92d288",
+        "filename": "docs/release-notes.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-09-17T17:48:59Z",
+      "side": 1,
+      "message": "Pls add this version and date (2.0.0??)",
+      "revId": "126ddba9f0caa00cd7a90af4d23890d611091c6f",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fccc97a5_03fd7d26",
+        "filename": "docs/user-guide.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-09-17T17:48:59Z",
+      "side": 1,
+      "message": "When this is merged to Gerrit I believe it will be pushed to PyPI.",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 29
+      },
+      "revId": "126ddba9f0caa00cd7a90af4d23890d611091c6f",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "66bbfda1_ec2c83c7",
+        "filename": "run.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-09-17T17:48:59Z",
+      "side": 1,
+      "message": "Should the port be configurable?",
+      "range": {
+        "startLine": 29,
+        "startChar": 45,
+        "endLine": 29,
+        "endChar": 49
+      },
+      "revId": "126ddba9f0caa00cd7a90af4d23890d611091c6f",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5cb95e88_e8a45d44",
+        "filename": "setup.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-09-17T17:48:59Z",
+      "side": 1,
+      "message": "3.7 is not named in tox.ini",
+      "range": {
+        "startLine": 37,
+        "startChar": 43,
+        "endLine": 37,
+        "endChar": 46
+      },
+      "revId": "126ddba9f0caa00cd7a90af4d23890d611091c6f",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "521e18b6_e5a1eca0",
+        "filename": "tests/test_util.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-09-17T17:48:59Z",
+      "side": 1,
+      "message": "Not useful?",
+      "revId": "126ddba9f0caa00cd7a90af4d23890d611091c6f",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    }
+  ]
+}
