@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "a331051c_04895a2a",
+        "filename": "acumos_model_management/api/restplus.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 252
+      },
+      "writtenOn": "2018-10-03T20:33:10Z",
+      "side": 1,
+      "message": "The 0.1.0 version refers to the program itself. 2.0.0 refers to the API version",
+      "parentUuid": "e0944461_70e45fb8",
+      "range": {
+        "startLine": 39,
+        "startChar": 35,
+        "endLine": 39,
+        "endChar": 43
+      },
+      "revId": "126ddba9f0caa00cd7a90af4d23890d611091c6f",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "323be62d_4b6c8adf",
         "filename": "acumos_model_management/api/v2/endpoints.py",
         "patchSetId": 3
@@ -36,6 +60,30 @@
       "writtenOn": "2018-09-17T17:48:59Z",
       "side": 1,
       "message": "Is implementation coming soon?",
+      "range": {
+        "startLine": 27,
+        "startChar": 22,
+        "endLine": 27,
+        "endChar": 73
+      },
+      "revId": "126ddba9f0caa00cd7a90af4d23890d611091c6f",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "11730c80_2c0fb58e",
+        "filename": "acumos_model_management/api/v2/endpoints.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 252
+      },
+      "writtenOn": "2018-10-03T20:33:10Z",
+      "side": 1,
+      "message": "Yep, upcoming patch set should have the implementation",
+      "parentUuid": "323be62d_4b6c8adf",
       "range": {
         "startLine": 27,
         "startChar": 22,
@@ -65,6 +113,24 @@
     },
     {
       "key": {
+        "uuid": "909ef21b_bb98124b",
+        "filename": "acumos_model_management/api/v2/parsers.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 252
+      },
+      "writtenOn": "2018-10-03T20:33:10Z",
+      "side": 1,
+      "message": "This is a placeholder for the implementation... upcoming patchset should make use of this file",
+      "parentUuid": "0cdae465_a70839ac",
+      "revId": "126ddba9f0caa00cd7a90af4d23890d611091c6f",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5b3ee800_0366f244",
         "filename": "docs/developer-guide.rst",
         "patchSetId": 3
@@ -76,6 +142,24 @@
       "writtenOn": "2018-09-17T17:48:59Z",
       "side": 1,
       "message": "Fix line len",
+      "revId": "126ddba9f0caa00cd7a90af4d23890d611091c6f",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7c222b03_f104384e",
+        "filename": "docs/developer-guide.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 252
+      },
+      "writtenOn": "2018-10-03T20:33:10Z",
+      "side": 1,
+      "message": "Will do",
+      "parentUuid": "5b3ee800_0366f244",
       "revId": "126ddba9f0caa00cd7a90af4d23890d611091c6f",
       "serverId": "655300a2-7a56-4504-9153-881edd907bea",
       "unresolved": false
@@ -219,6 +303,30 @@
     },
     {
       "key": {
+        "uuid": "edfd517b_8b5f3522",
+        "filename": "run.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 252
+      },
+      "writtenOn": "2018-10-03T20:33:10Z",
+      "side": 1,
+      "message": "This is just to run a local development server, but I will make this configurable via command line args",
+      "parentUuid": "66bbfda1_ec2c83c7",
+      "range": {
+        "startLine": 29,
+        "startChar": 45,
+        "endLine": 29,
+        "endChar": 49
+      },
+      "revId": "126ddba9f0caa00cd7a90af4d23890d611091c6f",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5cb95e88_e8a45d44",
         "filename": "setup.py",
         "patchSetId": 3
@@ -242,6 +350,30 @@
     },
     {
       "key": {
+        "uuid": "32deff96_b157a8e1",
+        "filename": "setup.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 252
+      },
+      "writtenOn": "2018-10-03T20:33:10Z",
+      "side": 1,
+      "message": "Good catch. I will update tox.ini to make sure py37 is there as well",
+      "parentUuid": "5cb95e88_e8a45d44",
+      "range": {
+        "startLine": 37,
+        "startChar": 43,
+        "endLine": 37,
+        "endChar": 46
+      },
+      "revId": "126ddba9f0caa00cd7a90af4d23890d611091c6f",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "521e18b6_e5a1eca0",
         "filename": "tests/test_util.py",
         "patchSetId": 3
@@ -253,6 +385,24 @@
       "writtenOn": "2018-09-17T17:48:59Z",
       "side": 1,
       "message": "Not useful?",
+      "revId": "126ddba9f0caa00cd7a90af4d23890d611091c6f",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a98dc8fc_96e5e110",
+        "filename": "tests/test_util.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 252
+      },
+      "writtenOn": "2018-10-03T20:33:10Z",
+      "side": 1,
+      "message": "Placeholder for upcoming patch set which will include implementation and test cases. Was just used to make sure tox works fine",
+      "parentUuid": "521e18b6_e5a1eca0",
       "revId": "126ddba9f0caa00cd7a90af4d23890d611091c6f",
       "serverId": "655300a2-7a56-4504-9153-881edd907bea",
       "unresolved": false
