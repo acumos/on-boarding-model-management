@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "7e217ece_c559de78",
+        "filename": "acumos_model_management/__init__.py",
+        "patchSetId": 9
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 252
+      },
+      "writtenOn": "2018-10-03T20:33:10Z",
+      "side": 1,
+      "message": "Well, the application version itself is 0.1.0, but the API is version 2.0.0. Typically the API version is kept separate from the application. I can converge them if you prefer. Please let me know.",
+      "parentUuid": "e7eac3fe_0760772c",
+      "revId": "a1d66ca9dcf678c3162a7e9be53352480381d17c",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7445c7a4_e516e9ab",
         "filename": "acumos_model_management/api/restplus.py",
         "patchSetId": 9
@@ -30,6 +48,30 @@
       "writtenOn": "2018-10-03T16:05:53Z",
       "side": 1,
       "message": "I believe the team was advised to remove all occurrences of this acronym if at all possible",
+      "range": {
+        "startLine": 33,
+        "startChar": 26,
+        "endLine": 33,
+        "endChar": 30
+      },
+      "revId": "a1d66ca9dcf678c3162a7e9be53352480381d17c",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8c142a85_b3cdeb9b",
+        "filename": "acumos_model_management/api/restplus.py",
+        "patchSetId": 9
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 252
+      },
+      "writtenOn": "2018-10-03T20:33:10Z",
+      "side": 1,
+      "message": "Will change",
+      "parentUuid": "7445c7a4_e516e9ab",
       "range": {
         "startLine": 33,
         "startChar": 26,
@@ -65,6 +107,30 @@
     },
     {
       "key": {
+        "uuid": "408bdb18_a45ce688",
+        "filename": "acumos_model_management/api/restplus.py",
+        "patchSetId": 9
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 252
+      },
+      "writtenOn": "2018-10-03T20:33:10Z",
+      "side": 1,
+      "message": "Yep, this is deliberate. The application version is different than the API version.",
+      "parentUuid": "f350b6ab_3913afa7",
+      "range": {
+        "startLine": 36,
+        "startChar": 36,
+        "endLine": 36,
+        "endChar": 41
+      },
+      "revId": "a1d66ca9dcf678c3162a7e9be53352480381d17c",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "868de592_7a008be9",
         "filename": "acumos_model_management/api/v2/endpoints.py",
         "patchSetId": 9
@@ -76,6 +142,30 @@
       "writtenOn": "2018-10-03T16:05:53Z",
       "side": 1,
       "message": "500 is generally Internal Server Error as shown on line 28, why use a different string here?",
+      "range": {
+        "startLine": 49,
+        "startChar": 20,
+        "endLine": 49,
+        "endChar": 30
+      },
+      "revId": "a1d66ca9dcf678c3162a7e9be53352480381d17c",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5697746d_f108bca7",
+        "filename": "acumos_model_management/api/v2/endpoints.py",
+        "patchSetId": 9
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 252
+      },
+      "writtenOn": "2018-10-03T20:33:10Z",
+      "side": 1,
+      "message": "I will change all occurences to Internal Server Error.",
+      "parentUuid": "868de592_7a008be9",
       "range": {
         "startLine": 49,
         "startChar": 20,
@@ -122,6 +212,24 @@
       "writtenOn": "2018-10-03T16:05:53Z",
       "side": 1,
       "message": "Please make the lines at least as long as the text to silence the Sphinx-build warnings\n\nYou can leave off \"Acumos\"",
+      "revId": "a1d66ca9dcf678c3162a7e9be53352480381d17c",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6614a805_ac77acf0",
+        "filename": "docs/developer-guide.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 252
+      },
+      "writtenOn": "2018-10-03T20:33:10Z",
+      "side": 1,
+      "message": "Sounds good. Will do",
+      "parentUuid": "0adbcfd1_defbe2cd",
       "revId": "a1d66ca9dcf678c3162a7e9be53352480381d17c",
       "serverId": "655300a2-7a56-4504-9153-881edd907bea",
       "unresolved": false
@@ -196,6 +304,30 @@
       "writtenOn": "2018-10-03T16:05:53Z",
       "side": 1,
       "message": "This seems to imply 3.5 or greater, but the python_requires entry below says 3.4 or greater, am I reading this correctly?",
+      "range": {
+        "startLine": 34,
+        "startChar": 43,
+        "endLine": 34,
+        "endChar": 48
+      },
+      "revId": "a1d66ca9dcf678c3162a7e9be53352480381d17c",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7e7393fc_d5c7354a",
+        "filename": "setup.py",
+        "patchSetId": 9
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 252
+      },
+      "writtenOn": "2018-10-03T20:33:10Z",
+      "side": 1,
+      "message": "You are. The minimum version here is Python 3.5, so I will update the python_requires to reflect that change.",
+      "parentUuid": "cbdf6212_3636b318",
       "range": {
         "startLine": 34,
         "startChar": 43,
