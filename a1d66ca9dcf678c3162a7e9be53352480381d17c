@@ -1,0 +1,227 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e7eac3fe_0760772c",
+        "filename": "acumos_model_management/__init__.py",
+        "patchSetId": 9
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-10-03T16:05:53Z",
+      "side": 1,
+      "message": "Restplus.py uses version 2.0.0, is that supposed to match this?",
+      "revId": "a1d66ca9dcf678c3162a7e9be53352480381d17c",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7445c7a4_e516e9ab",
+        "filename": "acumos_model_management/api/restplus.py",
+        "patchSetId": 9
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-10-03T16:05:53Z",
+      "side": 1,
+      "message": "I believe the team was advised to remove all occurrences of this acronym if at all possible",
+      "range": {
+        "startLine": 33,
+        "startChar": 26,
+        "endLine": 33,
+        "endChar": 30
+      },
+      "revId": "a1d66ca9dcf678c3162a7e9be53352480381d17c",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f350b6ab_3913afa7",
+        "filename": "acumos_model_management/api/restplus.py",
+        "patchSetId": 9
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-10-03T16:05:53Z",
+      "side": 1,
+      "message": "But this version is different from the string 0.1.0 set elsewhere, is that deliberate?",
+      "range": {
+        "startLine": 36,
+        "startChar": 36,
+        "endLine": 36,
+        "endChar": 41
+      },
+      "revId": "a1d66ca9dcf678c3162a7e9be53352480381d17c",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "868de592_7a008be9",
+        "filename": "acumos_model_management/api/v2/endpoints.py",
+        "patchSetId": 9
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-10-03T16:05:53Z",
+      "side": 1,
+      "message": "500 is generally Internal Server Error as shown on line 28, why use a different string here?",
+      "range": {
+        "startLine": 49,
+        "startChar": 20,
+        "endLine": 49,
+        "endChar": 30
+      },
+      "revId": "a1d66ca9dcf678c3162a7e9be53352480381d17c",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "368dbb3a_d99901a8",
+        "filename": "acumos_model_management/app.py",
+        "patchSetId": 9
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-10-03T16:05:53Z",
+      "side": 1,
+      "message": "Typo",
+      "range": {
+        "startLine": 26,
+        "startChar": 48,
+        "endLine": 26,
+        "endChar": 50
+      },
+      "revId": "a1d66ca9dcf678c3162a7e9be53352480381d17c",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0adbcfd1_defbe2cd",
+        "filename": "docs/developer-guide.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-10-03T16:05:53Z",
+      "side": 1,
+      "message": "Please make the lines at least as long as the text to silence the Sphinx-build warnings\n\nYou can leave off \"Acumos\"",
+      "revId": "a1d66ca9dcf678c3162a7e9be53352480381d17c",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0cb0b2cd_ee5001dc",
+        "filename": "docs/overview.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-10-03T16:05:53Z",
+      "side": 1,
+      "message": "Please make lines at least as long as text",
+      "revId": "a1d66ca9dcf678c3162a7e9be53352480381d17c",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6d224a03_16ea6a3e",
+        "filename": "docs/overview.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-10-03T16:05:53Z",
+      "side": 1,
+      "message": "The correct URL seems to be https://jenkins.acumos.org/view/on-boarding/",
+      "range": {
+        "startLine": 34,
+        "startChar": 4,
+        "endLine": 34,
+        "endChar": 64
+      },
+      "revId": "a1d66ca9dcf678c3162a7e9be53352480381d17c",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a216804_44145285",
+        "filename": "properties/logging.json",
+        "patchSetId": 9
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-10-03T16:05:53Z",
+      "side": 1,
+      "message": "why an empty JSON file?",
+      "revId": "a1d66ca9dcf678c3162a7e9be53352480381d17c",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cbdf6212_3636b318",
+        "filename": "setup.py",
+        "patchSetId": 9
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-10-03T16:05:53Z",
+      "side": 1,
+      "message": "This seems to imply 3.5 or greater, but the python_requires entry below says 3.4 or greater, am I reading this correctly?",
+      "range": {
+        "startLine": 34,
+        "startChar": 43,
+        "endLine": 34,
+        "endChar": 48
+      },
+      "revId": "a1d66ca9dcf678c3162a7e9be53352480381d17c",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "774ca71c_a6b606ae",
+        "filename": "tests/mock_context.py",
+        "patchSetId": 9
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-10-03T16:05:53Z",
+      "side": 1,
+      "message": "Probably want to add the license header",
+      "revId": "a1d66ca9dcf678c3162a7e9be53352480381d17c",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    }
+  ]
+}
