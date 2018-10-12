@@ -1,5 +1,7 @@
+#!/usr/bin/env python3
+#
 # ===============LICENSE_START=======================================================
-# Acumos Apache-2.0
+# Acumos
 # ===================================================================================
 # Copyright (C) 2018 AT&T Intellectual Property. All rights reserved.
 # ===================================================================================
@@ -8,17 +10,24 @@
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
-# http://www.apache.org/licenses/LICENSE-2.0
+#      http://www.apache.org/licenses/LICENSE-2.0
 #
 # This file is distributed on an "AS IS" BASIS,
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ===============LICENSE_END=========================================================
-
+from os.path import dirname, abspath, join as path_join
 from setuptools import setup, find_packages
 
-version = __import__('acumos_model_management').get_version()
+
+SETUP_DIR = abspath(dirname(__file__))
+
+with open(path_join(SETUP_DIR, 'acumos_model_management', '_version.py')) as file:
+    globals_dict = dict()
+    exec(file.read(), globals_dict)
+    __version__ = globals_dict['__version__']
+
 
 with open("README.md") as fd:
     long_description = fd.read()
@@ -50,5 +59,5 @@ setup(
     packages=find_packages(),
     python_requires='>=3.5',
     url='https://gerrit.acumos.org/r/gitweb?p=on-boarding/model-management.git',
-    version=version,
+    version=__version__,
 )
