@@ -1,9 +1,0 @@
-[MONGO]
-mongo_dbname = SAMPLE_DB
-mongo_username = example
-mongo_password = example
-mongo_host = 127.0.0.1
-mongo_port = 12345
-
-[FILES]
-upload_dir = /data/files/
