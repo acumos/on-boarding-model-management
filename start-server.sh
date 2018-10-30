@@ -15,10 +15,15 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ===============LICENSE_END=========================================================
-FROM continuumio/miniconda3
-ADD properties /opt/app/microservice/properties
-ADD acumos_model_management /opt/app/microservice/acumos_model_management
-ADD wsgi.py README.md setup.py setup.cfg run.py start-server.sh /opt/app/microservice/
-RUN chmod 777 -R /root
-EXPOSE 8081
-ENTRYPOINT /opt/app/microservice/start-server.sh
+#!/bin/bash
+
+pip install -e /opt/app/microservice
+
+mkdir -p /log
+
+cd /opt/app/microservice
+
+mkdir model_upload
+
+gunicorn --timeout 120 --bind 0.0.0.0:8081 --config /opt/app/microservice/properties/config.ini wsgi:application
+
