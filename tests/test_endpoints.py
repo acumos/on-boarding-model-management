@@ -26,13 +26,13 @@ import json
 import tempfile
 
 app = Flask(__name__)
-temporary_directory = tempfile.mkdtemp()
-app.config['UPLOAD_FOLDER'] = temporary_directory
 
 
 with mongo_test_context():
     from acumos_model_management.app import initialize_app
     initialize_app(app)
+    temporary_directory = tempfile.mkdtemp()
+    app.config['UPLOAD_FOLDER'] = temporary_directory
 
 
 def test_endpoints():
