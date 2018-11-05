@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "50d1c7a1_fef7de11",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-11-05T22:08:18Z",
+      "side": 1,
+      "message": "a tiny thing, please remove this blank line in the footer, keep the lines together.",
+      "revId": "05879af1ad19e56d24683187485238d14d88c7e3",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b80ad50c_9f72e096",
+        "filename": "Dockerfile",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-11-05T22:08:18Z",
+      "side": 1,
+      "message": "You probably want to tag this with a known good version, so this keeps working as they release new images tagged \"latest\"",
+      "revId": "05879af1ad19e56d24683187485238d14d88c7e3",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "470ae3eb_c2c38af1",
+        "filename": "start-server.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-11-05T22:08:18Z",
+      "side": 1,
+      "message": "What creates this file?  I don\u0027t see a copy in the Dockerfile (?)",
+      "range": {
+        "startLine": 28,
+        "startChar": 85,
+        "endLine": 28,
+        "endChar": 95
+      },
+      "revId": "05879af1ad19e56d24683187485238d14d88c7e3",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": true
+    }
+  ]
+}
